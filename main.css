@@ -1,0 +1,101 @@
+@import "normalize.css";
+
+.jelly{
+    grid-column: 1 / span 2;
+    content: url("image/PotionJ.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.flavor{
+    grid-column: 1 / span 2;
+    content: url("image/PotionF.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.sparkle{
+    grid-column: 1 / span 2;
+    content: url("image/PotionSN.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.occasion{
+    grid-column: 1 / span 2;
+    content: url("image/SwordAO.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.grass{
+    grid-column: 1 / span 2;
+    content: url("image/SwordG.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.cutting{
+    grid-column: 1 / span 2;
+    content: url("image/SwordMC.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.stick{
+    grid-column: 1 / span 2;
+    content: url("image/Stick.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.dead{
+    grid-column: 1 / span 2;
+    content: url("image/Coughfin.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.symbol{
+    grid-column: 1 / span 2;
+    content: url("image/Tablet.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        grid-gap: 30px;
+    }
+
+    .grid-item{
+        border: 5px solid black;
+        padding:5px;
+    }
+
+.purple{
+    content: url("image/PotionF.jpg");
+}
+.flavor{
+    content: url("image/PotionJ.jpg");  
+}
+.sparkle{
+    content: url("image/SwordAO.jpg");
+}
+.occasion{
+    content: url("image/PotionSN.jpg");
+}
+.cutting{
+    content: url("image/SwordG.jpg");
+}
+.grass{
+    content: url("image/SwordMC.jpg");
+}
+.stick{
+    content: url("image/Tablet.jpg");
+}
+.dead{
+    content: url("image/Stick.jpg");
+}
+.symbol{
+    content: url("image/Coughfin.jpg");
+}
+}
+
+
